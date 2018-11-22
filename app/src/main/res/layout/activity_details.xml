@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Get free gold"
+                android:textSize="20sp"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/colorPrimary"
+                android:textStyle="bold"
+                android:onClick="openLink"/>
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:src="@drawable/icon"
+                android:layout_marginTop="20dp"
+                android:onClick="openLink"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="How to get free cash"
+                android:textSize="20sp"
+                android:textColor="@color/colorPrimary"
+                android:textStyle="bold"
+                android:layout_marginTop="40dp"
+                android:onClick="openLink"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:gravity="center"
+                android:text="Becoming a pro gamer requires a lot of time, motivation, a healthy lifestyle but that's not all.... It is not enough to play 2 or 3 hours a day to become one, let's be clear, the real pro practices this activity more than 5 hours a day and sometimes even much more... You have to find the styles of games that suits you, for that there is no mystery, it is necessary to inquire. Once found, only one address it will cost you less to get it. Remember that each pro gamer has prefered game styles but rarely plays a single one. Keep an open mind. A very large part of the work of a pro gamers to understand research analyze test listern to strategies."
+                android:textSize="17sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Boost your resources now"
+                android:textSize="20sp"
+                android:textColor="@color/colorPrimary"
+                android:textStyle="bold"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="40dp"
+                android:onClick="openLink"/>
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</layout>

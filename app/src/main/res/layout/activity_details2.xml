@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Get free gold"
+                android:textSize="20sp"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/colorPrimary"
+                android:textStyle="bold"
+                android:onClick="openLink"/>
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:src="@drawable/icon"
+                android:layout_marginTop="20dp"
+                android:onClick="openLink"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="How to get free cash"
+                android:textSize="20sp"
+                android:textColor="@color/colorPrimary"
+                android:textStyle="bold"
+                android:layout_marginTop="40dp"
+                android:onClick="openLink"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:gravity="center"
+                android:text="The world of pro gaming is changing very quickly and it is important to think about what you will do after your pro gamer career. If you are in your element and video games are your passion, make e sport your main new activity, comment on matches write articles on the world of sports or offer your services as pro gaming specialist during competitions and matches. Your image has become important to a community and if you are lucky it will follow you as as you make it dream or bring interesting content to it."
+                android:textSize="17sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Boost your resources now"
+                android:textSize="20sp"
+                android:textColor="@color/colorPrimary"
+                android:textStyle="bold"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="40dp"
+                android:onClick="openLink"/>
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</layout>
